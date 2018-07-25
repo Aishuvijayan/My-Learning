@@ -1,0 +1,54 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+ 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 
+                xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+ 
+http://maven.apache.org/xsd/settings-1.0.0.xsd">
+ 
+                <localRepository>C:Aishu/repository</localRepository>
+                <interactiveMode>true</interactiveMode>
+ 
+                <usePluginRegistry>false</usePluginRegistry>
+ 
+                <offline />
+ 
+                <pluginGroups />
+ 
+                <servers />
+                <mirrors/>
+ 
+                
+                
+ 
+                <proxies>
+ 
+ 
+ 
+                                <proxy>
+ 
+                                                <id>proxy</id>
+ 
+                                                <active>true</active>
+ 
+                                                <protocol>http</protocol>
+ 
+                                                <host>proxy</host>
+<username></username>
+<password></password>
+ 
+                                                <port>8080</port>
+ 
+                                                <nonProxyHosts>localhost</nonProxyHosts>
+ 
+                                </proxy>
+ 
+                </proxies>
+ 
+ 
+ 
+                <profiles />
+ 
+                <activeProfiles />
+ 
+</settings>
